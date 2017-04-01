@@ -5,7 +5,7 @@ Tema yang digunakan pada program ini adalah Arc dan Arc-Dark, sehingga sebelum m
 'arc-theme' harus terpasang dulu.
 
 Langkah Pemasangan:
-1. Unduh .
+1. Unduh `xfce4-instant-theme-switcher`.
 2. Salin `xfce4-instant-theme-switcher` ke direktori `home` Anda. (`/home/usernameAnda`).
 3. Buka terminal, beri izin eksekusi ke `xfce4-instant-theme-switcher` dengan mengetikkan: 
 `chmod +x xfce4-instant-theme-switcher`.
@@ -14,5 +14,5 @@ Langkah Pemasangan:
 muncul sebuah _launcher_.
 6. Klik kanan _launcher_ tersebut, kemudian klik `Properties`.
 7. Pada jendela `Launcher`, klik `Add a new empty item`.
-8. Pada jendela 'Create Launcher', isi 'Command' menjadi `./xfce4-instant-theme-switcher`. Anda bisa 
+8. Pada jendela `Create Launcher`, isi `Command` menjadi `./xfce4-instant-theme-switcher`. Anda bisa 
 mengganti ikon sesuai dengan keinginan Anda, kemudian klik `Create`.
