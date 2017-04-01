@@ -1,0 +1,12 @@
+#!/bin/bash
+usedtheme=$(xfconf-query -c xsettings -p /Net/ThemeName)
+theme1=Arc-Dark 	#first theme
+theme2=Arc		#second theme
+if [ "$usedtheme" = "$theme2" ]
+then
+	xfconf-query -c xsettings -p /Net/ThemeName -s $theme1
+	xfconf-query -c xfwm4 -p /general/theme -s $theme1
+else
+	xfconf-query -c xsettings -p /Net/ThemeName -s $theme2
+        xfconf-query -c xfwm4 -p /general/theme -s $theme2
+fi
